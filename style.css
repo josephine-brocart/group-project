@@ -1,0 +1,146 @@
+/*Colors and fonts*/
+
+body {
+	background: #FFFFFF;
+	color: #2F7B8B;
+	font-family: 'Brawler',serif; 
+	font-size: 16px;
+}
+
+header {
+	background: #2F7B8B;
+	height: 233px;
+	width: 100%;
+	padding: 10px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Sansita',sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    color: #2F7B8B;
+    font-family: 'Sansita',sans-serif;
+    font-size: 28px;
+}
+
+h3 {
+    color: #2F7B8B;
+    font-family: 'Sansita',sans-serif;
+    font-size: 24px;
+}
+
+h4 {
+    color: #D3A877;
+    font-family: 'Brawler',serif;
+    font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px; 
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px; 
+	}
+}
+
+.btn-beige{
+	background-color: #D3A877;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue{
+	background-color: #D3A877;
+	color: white;
+	padding: 15px 150px;
+	border-radius: 4px;
+}
+
+.btn-gris{
+	background-color: #CEC0C0;
+	color: #2F7B8B;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.card-research {
+	background-color: #CEC0C0;
+	color: #D3A877;
+	padding: 5px;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius: 0px;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#logo-circle {
+	border-radius: 50%;
+}
+
+.cities-pictures {
+	width: 340px;
+	height: 274px;
+	padding: 5px;
+}
+
+.profile-pictures {
+	width: 160px;
+	height: 176px;
+	padding: 20px;
+}
+
+.blog-pictures {
+	width: 213px;
+	height: 348px;
+}
+
+.packages-pictures {
+	width: 202px;
+	height: 151px;
+	padding: 15px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: #D3A877;
+}
